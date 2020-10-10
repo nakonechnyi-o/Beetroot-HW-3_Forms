@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Замовити продукти</h1>
+    <form action>
+        <fieldset>
+            <legend>Покупець</legend>
+            <label for="name">ПІБ</label><br>
+            <input type="text" name="registration_login" id="name">
+            <br>
+            <label for="name">Скринька</label>
+            <br>
+            <input type="email" name="registration_email" id="email">
+            <br>
+            <label for="password">Пароль</label>
+            <br>
+            <input type="password" name="registration_password" id="password">
+            <br>
+            <label for="PasswordConfirm">Ще раз пароль</label>
+            <br>
+            <input type="password" name="registration_password_comfirm" id="PasswordConfirm">
+        </fieldset>
+        <fieldset>
+            <ul>
+                <h2>
+                    <legend>Фрукти</legend>
+                </h2>
+                <li><input type="checkbox" id="fruits1" name="fruits1" value="Avocado">
+                    <label for="vehicle1"> Avocado</label><br></li>
+                <li><input type="checkbox" id="fruits2" name="fruits2" value="Bananas">
+                    <label for="vehicle2"> Bananas</label><br></li>
+                <li><input type="checkbox" id="fruits3" name="fruits3" value="Orange">
+                    <label for="vehicle3"> Orange</label></li>
+
+            </ul>
+
+        </fieldset>
+
+        <input type="checkbox" name="conditions" id="agree">
+        <label for="agree">
+            "Я погоджуюся з"
+            <a href="#">політикою конфіденційності</a> та <a href="#">умовами використання</a>
+        </label>
+        <br>
+        <input type="submit" value="Підтвердити">
+
+
+    </form>
+</body>
+
+</html>
