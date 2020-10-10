@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Зареєструйся!</h1>
+    <form action>
+        <fieldset>
+            <legend>Крок 1</legend>
+            <label for="name">ПІБ</label><br>
+            <input type="text" name="registration_login" id="name">
+            <br>
+            <label for="name">Скринька</label>
+            <br>
+            <input type="email" name="registration_email" id="email">
+            <br>
+            <label for="password">Пароль</label>
+            <br>
+            <input type="password" name="registration_password" id="password">
+            <br>
+            <label for="PasswordConfirm">Ще раз пароль</label>
+            <br>
+            <input type="password" name="registration_password_comfirm" id="PasswordConfirm">
+        </fieldset>
+        <fieldset>
+            <legend>Крок 2</legend>
+            <label for="position">Хто ти?</label>
+            <br>
+            <select name="profession" id="pisition">
+                <option value="designer">Дизайнер</option>
+                <option value="programmer">Програміст</option>
+                <option value="admin">Адмін</option>
+                <option hidden disabled selected>Вибрати 1</option>
+            </select>
+            <fieldset>
+                <legend>Досвір роботи</legend>
+                <input type="radio" name="experience" id="exp1" value="<1">
+                <label for="exp1">Менше 1 року</label>
+                <br>
+                <input type="radio" name="experience" id="exp2" value="1-3">
+                <label for="exp2">1-3 роки</label>
+                <br>
+                <input type="radio" name="experience" id="exp3" value="3-5">
+                <label for="exp3">3-5 роки</label>
+                <br>
+                <input type="radio" name="experience" id="exp4" value=">5">
+                <label for="exp4">більше 5</label>
+            </fieldset>
+            <fieldset>
+                <legend>Крок 3</legend>
+                <label for="birth">Дата народження</label>
+                <br>
+                <input type="date" name="databirth" id="birth">
+                <br>
+                <label for="about">Розкажи про себе</label>
+                <br>
+                <textarea name="aboutmessage" id="about"></textarea>
+            </fieldset>
+            <input type="checkbox" name="conditions" id="agree">
+            <label for="agree">
+                "Я погоджуюся з"
+                <a href="#">політикою конфіденційності</a> та <a href="#">умовами використання</a>
+            </label>
+            <br>
+            <input type="submit" value="Підтвердити">
+    </form>
+</body>
+
+</html>
